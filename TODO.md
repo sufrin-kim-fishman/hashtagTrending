@@ -1,6 +1,7 @@
 # PHASE 1
 ## -Node Project
 --learn to use the Twitter streaming API
+--learn node
 --web sockets
 --get ALL streaming twitter data on the command line
 
