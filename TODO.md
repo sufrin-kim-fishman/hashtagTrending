@@ -26,3 +26,11 @@
 --use google translate API to translate tweets based on language preferences
 --only show some hashtags (specified in user preferences)
 --use web sockets to display tweets on map in real time
+
+
+BEFORE PRODUCTION
+-add application.yml back to gitignore
+-buy a domain
+-think of awesome name
+
+
