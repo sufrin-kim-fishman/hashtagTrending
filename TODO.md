@@ -32,5 +32,5 @@ BEFORE PRODUCTION
 -add application.yml back to gitignore
 -buy a domain
 -think of awesome name
-
+-change callback Twitter URL on app dashboard
 
