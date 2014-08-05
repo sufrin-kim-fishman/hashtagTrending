@@ -14,7 +14,7 @@ server.listen(8080);
 
 
 // Twitter symbols array
-// var watchSymbols = ['$msft', '$intc', '$hpq', '$goog', '$nok', '$nvda', '$bac', '$orcl', '$csco', '$aapl', '$ntap', '$emc', '$t', '$ibm', '$vz', '$xom', '$cvx', '$ge', '$ko', '$jnj'];
+ var watchSymbols = ['$msft', '$intc', '$hpq', '$goog', '$nok', '$nvda', '$bac', '$orcl', '$csco', '$aapl', '$ntap', '$emc', '$t', '$ibm', '$vz', '$xom', '$cvx', '$ge', '$ko', '$jnj'];
 
 //This structure will keep the total number of tweets received and a map of all the symbols and how many tweets received of that symbol
 var watchList = "$";
@@ -50,7 +50,7 @@ var t = new twitter({
 });
 
 //Tell the twitter API to filter on the watchSymbols 
-t.stream('statuses/filter', { }, function(stream) {
+t.stream('statuses/filter', { track: watchSymbols }, function(stream) {
 
   //We have a connection. Now watch the 'data' event for incoming tweets.
   stream.on('data', function(tweet) {

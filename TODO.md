@@ -4,7 +4,7 @@
 --learn node
 --web sockets
 --get ALL streaming twitter data on the command line
-
+--find out how to make tweets appear and disappear as they come in (probably AJAX)
 
 
 
